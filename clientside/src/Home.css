@@ -1,0 +1,44 @@
+.home {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('') center/cover no-repeat;
+    padding: 50px;
+    color: white;
+}
+
+.topics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.topic-grid a {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f4f4f4;
+    font-weight: bold;
+}
